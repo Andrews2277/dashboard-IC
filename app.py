@@ -291,6 +291,7 @@ def _build_docente_importancia(dff=None):
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 app.title = "Dashboard de Eficácia Escolar"
+server = app.server
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
